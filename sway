@@ -10,7 +10,7 @@ set $term foot
 set $menu bemenu-run --hp 10 --fn "monospace 16"
 
 ### Output configuration
-output * bg ~/dotfiles/wallpaper.jpg fill
+output * bg ~/Projects/dotfiles/wallpaper.jpg fill
 output DP-1 pos 0 0 scale 2 adaptive_sync on
 
 ### Idle configuration
