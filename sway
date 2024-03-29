@@ -7,7 +7,7 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu bemenu-run --hp 10 --fn "monospace 16"
+set $menu bemenu-run --hp 10 --fn "monospace 20
 
 ### Output configuration
 output * bg ~/Projects/dotfiles/wallpaper.jpg fill
@@ -161,6 +161,7 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 bar {
+    font monospace 18
     position top
     status_command while date +'%Y-%m-%d %X'; do sleep 1; done
 
